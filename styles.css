@@ -16,7 +16,7 @@ body {
 
 .header,
 .content-header {
-    margin: 0 250px;
+    margin: 0 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,10 +27,6 @@ ul {
     margin: 0;
     padding: 0;
     gap: 18px;
-}
-
-li {
-    
 }
 
 a {
@@ -48,6 +44,8 @@ a {
 .right-header {
     display: flex;
     align-items: center;
+    margin-top: 18px;
+    margin-bottom: 50px;
 }
 
 .content {
@@ -55,10 +53,25 @@ a {
     flex-direction: column;
 }
 
-.content h1 {
+.content-header {
+    margin-top: 55px;
+}
+
+.content h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+.content p {
+    color: #F9FAF8;
+    margin: 5px;
+    padding: 0;
+    width: 450px;
+    font-size: 18px;
 }
 
 
@@ -67,17 +80,17 @@ a {
     align-items: center;
     justify-content: center;
     background: #eeeeeec2;
-    width: 750px;
+    width: 600px;
     height: 200px;
 }
 
 button.signup {
-    margin: 0 250px;
     cursor: pointer;
-    padding: 6px 26px;
-    border-radius: 8px;
+    padding: 10px 26px;
+    border-radius: 9px;
     border: 1px solid royalblue;
-    background: royalblue;
-    font-weight: bold;
+    background: #3882F6;
+    color: #f9faf8;
+    width: 120px;
 }
 
