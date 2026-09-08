@@ -9,9 +9,19 @@ body {
     margin: 0;
 }
 
-.page {
+.part-one {
     background: #1F2937;
     height: 500px;
+}
+
+.part-two {
+    padding: 150px;
+    text-align: center;
+}
+
+.part-three {
+    background: lightgray;
+    padding: 150px;
 }
 
 .header,
@@ -54,7 +64,7 @@ a {
 }
 
 .content-header {
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 .content h1{
@@ -67,13 +77,12 @@ a {
 }
 
 .content p {
-    color: #F9FAF8;
+    color: #f9faf88f;
     margin: 5px;
     padding: 0;
     width: 450px;
     font-size: 18px;
 }
-
 
 .place-holder {
     display: flex;
@@ -94,3 +103,58 @@ button.signup {
     width: 120px;
 }
 
+.title-body {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 35px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.desc {
+    color: #0000009d;
+    width: 150px;
+}
+
+.photo-box {
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid royalblue;
+    box-shadow: 5px 10px #eeeeee;
+    margin: 15px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 32px;
+    width: 1000px;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+    font-weight: 900;
+    font-size: 28px;
+}
