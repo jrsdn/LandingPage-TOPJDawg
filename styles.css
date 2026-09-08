@@ -20,8 +20,16 @@ body {
 }
 
 .part-three {
-    background: lightgray;
+    background: #E5E7EB;
     padding: 150px;
+}
+
+.part-four {
+    padding: 150px;
+}
+
+.part-five {
+    background: #1F2937
 }
 
 .header,
@@ -93,7 +101,8 @@ a {
     height: 200px;
 }
 
-button.signup {
+.signup,
+.call-to-action-signup {
     cursor: pointer;
     padding: 10px 26px;
     border-radius: 9px;
@@ -140,14 +149,15 @@ button.signup {
 
 .quote-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 100px;
+    margin: 0 300px;
 }
 
 .quote {
     font-style: italic;
-    font-size: 32px;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
     width: 1000px;
 }
 
@@ -157,4 +167,52 @@ button.signup {
     margin: 15px;
     font-weight: 900;
     font-size: 28px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    background: #3882F6;
+    margin: 0 200px;
+    border-radius: 15px;
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call-to-action-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    max-height: 40px;
+    background: #3882F6;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 400px;
+    font-weight: 700px;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-desc {
+    color: white;
+    margin: 5px;
+    padding: 0;
+    font-size: 16px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
 }
